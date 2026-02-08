@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanessa Leiner | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= NAV ================= -->
+  <header id="top">
+    <nav class="nav">
+      <a href="#top" class="logo">Vanessa Leiner</a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- CV DOWNLOAD -->
+      <a class="cta-button small" href="my_resume.pdf" target="_blank" rel="noopener">
+        Download my CV
+      </a>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <div class="hero flex-container">
+      <div class="text-container">
+        <p class="badge">Portfolio · Applications</p>
+
+        <h1>Hi, I’m Vanessa.</h1>
+        <p class="lead">
+          Engineering student with a strong technical foundation and a focus on
+          structured, reliable solutions.
+        </p>
+
+        <div class="button-row">
+          <a href="#projects" class="cta-button">See projects</a>
+          <a href="#contact" class="cta-button secondary">Contact</a>
+        </div>
+      </div>
+
+      <img
+        src="Fotovonmir.JPG"
+        alt="Portrait of Vanessa"
+        class="hero-img"
+      />
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>
+       I am an engineering students with a background in electrical engineering. I currently study biomedical engineering and have a wide variety of interests, such as learning new languages, be it programming or spoken, and crocheting. Furthermore, I enjoy hiking and going to the gym. 
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="grid-3">
+        <div class="skill-card">
+          <h3>Technical</h3>
+          <ul>
+            <li>Engineering fundamentals</li>
+            <li>Analytical thinking</li>
+            <li>Basic chemistry & calculations</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>MS Office / Documentation</li>
+            <li>Reports & presentations</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Reliable & organized</li>
+            <li>Team-oriented</li>
+            <li>Customer-focused</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3></h3>
+          <p>incoming
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3></h3>
+          <p>
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3></h3>
+          <p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+      <h2>Curriculum Vitae</h2>
+
+      <p>
+        My full CV is available as a PDF created with LaTeX based on a template created by Nico Krieger.
+      </p>
+
+      <div class="button-row">
+        <a class="cta-button" href="my_resume.pdf" target="_blank" rel="noopener">
+          Open CV (PDF)
+        </a>
+
+        <a class="cta-button secondary" href="my_resume.pdf" download>
+          Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="mailto:leiner.vanessa@gmail.com">leiner.vanessa@gmail.com</a>
+      </p>
+
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/vanessa-leiner-06a5a7282/" target="_blank" rel="noopener">My LinkedIn profile</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Vanessa Leiner</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
